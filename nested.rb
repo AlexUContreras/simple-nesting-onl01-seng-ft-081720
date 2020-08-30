@@ -16,7 +16,7 @@ def alan_kay_is_known_for
 end
 
 def dennis_ritchies_language
-@@ -55,6 +57,7 @@ def dennis_ritchies_language
+
           :languages => ["C"]
         }
      }
@@ -24,7 +24,7 @@ def dennis_ritchies_language
 end
 
 def adding_matz
-@@ -64,7 +67,7 @@ def adding_matz
+
 #    :languages => ["LISP", "C"]
 # }
 
@@ -33,7 +33,6 @@ def adding_matz
  		{
         :grace_hopper => {
           :known_for => "COBOL",
-@@ -80,6 +83,14 @@ def adding_matz
         }
      }
 
@@ -48,7 +47,7 @@ def adding_matz
 
 end
 
-@@ -101,6 +112,8 @@ def changing_alan
+def changing_alan
      }
      #change what Alan Kay is :known_for to the value of the alans_new_info variable. 
      alans_new_info = "GUI"
@@ -57,7 +56,7 @@ end
 
 
 end
-@@ -121,5 +134,10 @@ def adding_to_dennis
+def adding_to_dennis
           :languages => ["C"]
         }
      }
