@@ -8,7 +8,7 @@ def hopper
 
 end
 
-@@ -37,6 +38,7 @@ def alan_kay_is_known_for
+def alan_kay_is_known_for
           :languages => ["C"]
         }
      }
